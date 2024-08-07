@@ -6,7 +6,15 @@ import pandas as pd
 ROOT_DIR = "../../data"
 
 # Data load
-df = pd.read_csv(os.path.join(ROOT_DIR, "merged.csv"))
+file_name = input("Please enter the CSV filename (e.g., train.csv): ")
+
+file_path = os.path.join(ROOT_DIR, file_name)
+
+if os.path.isfile(file_path):
+    df = pd.read_csv(file_path)
+    print("File loaded successfully.")
+else:
+    print("File not found. Please check the filename and try again.")
 
 
 #### categorical columns preprocess ####
