@@ -128,3 +128,6 @@ save_pic/
 *.pkl
 lgbm_model.txt
 submission.csv
+
+# test 
+test.ipynb
