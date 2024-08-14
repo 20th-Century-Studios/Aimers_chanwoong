@@ -107,6 +107,7 @@ saved/
 datasets/
 submission/
 output/
+.DS_Store
 
 # editor, os cache directory
 .vscode/
