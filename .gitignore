@@ -126,3 +126,4 @@ save_pic/
 *.pickle
 *.pkl
 lgbm_model.txt
+submission.csv
